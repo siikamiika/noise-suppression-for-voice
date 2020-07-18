@@ -27,7 +27,7 @@ private:
      * This fixes cut outs in the middle of words.
      * Each sample is 10ms.
      */
-    static const short k_vadGracePeriodSamples = 20;
+    static const short k_vadGracePeriodSamples = 35;
 
     std::shared_ptr<DenoiseState> m_denoiseState;
 
